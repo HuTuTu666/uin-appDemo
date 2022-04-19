@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "通行预约系统"
+			}
+		}
+        ,{
+            "path" : "pages/orderApply/orderApply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderStatus/orderStatus",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约审批",
+				"navigationBarBackgroundColor": "#007AFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/outNews/outNews",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "外出须知",
+				"navigationBarBackgroundColor": "#007AFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderApprove/orderApprove",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约审批",
+                "navigationBarBackgroundColor": "#007AFF",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "通行预约系统",
+		"navigationBarBackgroundColor": "#e5e5e5",
+		"backgroundColor": "#F8F8F8"
+	}
+}
